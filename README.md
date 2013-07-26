@@ -4,17 +4,7 @@ appengine-endpoints-tictactoe-android
 This application implements a simple client for a Tic Tac Toe game using
 Google Cloud Endpoints, App Engine, Java, and Android.
 
-**NOTE:** This sample was written with a Java backend in mind. As a result, 
-the generated code will differ slightly than that for the [Python Tic Tac
-Toe sample][8]. For the most part this will be immaterial to the sample,
-but there are a few key differences:
-- The generated schema names in the discovery document are different in Python
-  than in Java, even though the hold the same data. This will cause the generated
-  classes corresponding to the schema to have different names.
-- Python supports enums and uses `'WHEN'` and `'TEXT'` for the `order` field in
-  queries, while Java simply uses `"1"` and `"2"`, respectively.
-- The Python backend stores the current user for authenticated requests, but does
-  not return the user in the score insert response or score list response.
+**NOTE:** This sample was written with a Python backend in mind.
 
 ## Products
 - [App Engine][1]
